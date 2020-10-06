@@ -74,6 +74,7 @@
     }
     #divD{
         background-color: rgb(22, 22, 172);
+        color: white;
     }
     #divE{
         background-color: rgb(212, 212, 1);
@@ -85,8 +86,10 @@
     }
     #divG{
         background-color: limegreen;
+        color: rgb(78, 32, 32);
     }
     #divH{
         background-color: rgb(13, 224, 13);
+        color: rgb(78, 32, 32);
     }
 }
