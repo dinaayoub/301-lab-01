@@ -1,0 +1,53 @@
+#pageTitle{
+    background: none;
+    outline: none;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    text-align: left;
+    font: 12pt Calibri, sans-serif;
+}
+
+#mainDiv {
+    background: none;
+    outline: none;    
+    width: 90%;
+    margin: auto;
+}
+#divA {
+    height: 15px;
+    padding: 30px 0px;
+}
+#divI {
+    height: 20px;
+    padding: 30px 0px;
+    clear: both;
+}
+.divHeight125 {
+    height: 25px;
+    padding: 50px 0px;
+}
+#divB {
+    height: 20px;
+    padding: 65px 0px;
+    
+}
+.halfWidth {
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+.halfWidthRight {
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+.halfWidthSection {
+    outline: none;
+    background: none;
+    align-content: center;
+}
+#bottomPaddingDiv{
+    height: 50px;
+    outline: none;
+    background: none;
+}
