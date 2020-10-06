@@ -4,4 +4,72 @@
 @import 'module.css';
 
 @media screen and (min-width:768px) {
+    body{
+        max-width: 960px;
+    }
+    div {
+        background: rgb(241, 215, 215);
+        outline: 1px rgb(143, 82, 82) solid;
+        text-align: center;
+    }
+
+    #pageTitle{
+        outline: none;
+        margin-bottom: 3%;
+        margin-top: 3%;
+        text-align: left;
+        font: 12pt Calibri, sans-serif;
+    }
+    
+    #mainDiv {
+        background: none;
+        outline: none;    
+        width: 90%;
+        margin: auto;
+    }
+    #divA {
+        height: 20px;
+        padding: 40px 0px;
+    }
+    #divI {
+        width: 79.16777777%;
+        height: 20px;
+        padding: 65px 0px;
+        float: right;
+        clear: right;
+        position: relative;
+        top: -1px;
+    }
+    .divCD {
+        height: 20px;
+        padding: 90px 0px;
+        width: 39.58333%;
+        float: left;
+        position: relative;
+        top: -1px;
+    }
+    #divB {
+        height: 20px;
+        padding: 290px 0px;
+        width: 20.83333%;
+        float: left;
+        position: relative;
+        top: -1px;
+    }
+    .halfWidth {
+        width: 19.7917%;
+        height: 20px;
+        padding: 115px 0px;
+        float: left;
+        position: relative;
+        top: -1px;
+    }
+    .halfWidthRight {
+        width: 19.7917%;
+        height: 20px;
+        padding: 115px 0px;
+        float: left;
+        position: relative;
+        top: -1px;
+    }
 }
