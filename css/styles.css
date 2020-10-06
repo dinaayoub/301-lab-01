@@ -4,12 +4,8 @@
 @import 'module.css';
 
 @media screen and (min-width:768px) {
-    body{
-        max-width: 960px;
-    }
     div {
         background: rgb(241, 215, 215);
-        outline: 1px rgb(143, 82, 82) solid;
         text-align: center;
     }
     #pageTitle{
@@ -38,7 +34,7 @@
         clear: right;
         position: relative;
         top: -1px;
-        background-color: rgb(241, 89, 89);
+        background-color: rgb(231, 35, 35);
     }
     .divCD {
         height: 20px;
