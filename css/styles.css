@@ -12,7 +12,6 @@
         outline: 1px rgb(143, 82, 82) solid;
         text-align: center;
     }
-
     #pageTitle{
         outline: none;
         margin-bottom: 3%;
@@ -20,7 +19,6 @@
         text-align: left;
         font: 12pt Calibri, sans-serif;
     }
-    
     #mainDiv {
         background: none;
         outline: none;    
@@ -30,6 +28,7 @@
     #divA {
         height: 20px;
         padding: 40px 0px;
+        background-color: rgb(112, 29, 91);
     }
     #divI {
         width: 79.16777777%;
@@ -39,6 +38,7 @@
         clear: right;
         position: relative;
         top: -1px;
+        background-color: rgb(241, 89, 89);
     }
     .divCD {
         height: 20px;
@@ -55,6 +55,7 @@
         float: left;
         position: relative;
         top: -1px;
+        background-color: orange;
     }
     .halfWidth {
         width: 19.7917%;
@@ -71,5 +72,25 @@
         float: left;
         position: relative;
         top: -1px;
+    }
+    #divC{
+        background-color: rgb(83, 196, 224);
+    }
+    #divD{
+        background-color: rgb(22, 22, 172);
+    }
+    #divE{
+        background-color: rgb(212, 212, 1);
+        color: rgb(78, 32, 32);
+    }
+    #divF {
+        background-color: yellow;
+        color: rgb(78, 32, 32);
+    }
+    #divG{
+        background-color: limegreen;
+    }
+    #divH{
+        background-color: rgb(13, 224, 13);
     }
 }
