@@ -3,3 +3,8 @@ div {
     text-align: center;
     color: white;
 }
+#bottomPaddingDiv{
+    height: 50px;
+    outline: none;
+    background: none;
+}
