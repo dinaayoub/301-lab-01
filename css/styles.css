@@ -2,59 +2,107 @@
 @import 'base.css';
 @import 'layout.css';
 @import 'module.css';
-
 @media screen and (min-width:768px) {
-    div {
-        background: rgb(241, 215, 215);
+    body{
+        max-width: 960px;
+    }
+    #mainDiv{
+        display: grid;
+        grid-template-columns: 20.83333% 19.791666667% 19.791666667% 19.791666667% 19.791666667%;
+        grid-template-rows: 100px 200px 250px 150px;
+
     }
     #divA {
-        height: 20px;
-        padding: 40px 0px;
+        grid-column: 1 / 6;
+        height: 100px;
         background-color: rgb(112, 29, 91);
     }
-    #divI {
-        width: 79.16777777%;
-        height: 20px;
-        padding: 65px 0px;
-        background-color: rgb(231, 35, 35);
-    }
-    .divCD {
-        height: 20px;
-        padding: 90px 0px;
-        width: 39.58333%;
-    }
     #divB {
+        grid-column: 1 / 2;
+        grid-row: 2 / 5;
         height: 20px;
         padding: 290px 0px;
-        width: 20.83333%;
+        width: 100%;
         background-color: orange;
+        border-right: none;
     }
-    .halfWidth {
-        width: 19.7917%;
-        height: 20px;
-        padding: 115px 0px;
-    }
-    #divC{
+    #divC {
+        grid-column : 2 / 4;
+        grid-row: 2 / 3;
+        width: 100%;
         background-color: rgb(83, 196, 224);
     }
-    #divD{
+    #divD {
+        grid-column: 4 / 6;
+        grid-row: 2/3;
+        width: 100%;
         background-color: rgb(22, 22, 172);
         color: white;
+        border-left: none;
     }
-    #divE{
+    .divCD {
+        border-bottom: none;
+        height: 200px;
+    }
+    #divE {
         background-color: rgb(212, 212, 1);
-        color: rgb(78, 32, 32);
+        grid-column: 2 / 3;
     }
     #divF {
         background-color: yellow;
-        color: rgb(78, 32, 32);
+        border-right: none;
+        grid-column: 3 / 4;
     }
-    #divG{
+    #divG {
         background-color: limegreen;
-        color: rgb(78, 32, 32);
+        grid-column: 4/5;
     }
-    #divH{
+    #divH {
         background-color: rgb(13, 224, 13);
+        grid-column:5/6;
+    }
+    .halfWidth {
         color: rgb(78, 32, 32);
+        width: 100%;
+        height: 250px;
+        grid-row: 3 / 4;
+    }
+    #divI {
+        width: 100%;
+        padding: 65px 0px;
+        background-color: rgb(231, 35, 35);
+        grid-column: 2 / 6;
+        grid-row: 4 / 5;
+    }
+}
+
+@media screen and (min-width:960px) {
+    body{ max-width: 1260px;}
+    #divA {
+        background-color: orange;
+    }
+    #divB {
+        background-color: red;
+    }
+    #divC {
+        background-color: yellow;
+    }
+    #divD {
+        background-color: green;
+    }
+    #divE {
+        background-color: lightblue;
+    }
+    #divF {
+        background-color: lightskyblue;
+    }
+    #divG {
+        background-color: blue;
+    }
+    #divH {
+        background-color: darkblue;
+    }
+    #divI {
+        background-color: indigo;
     }
 }
