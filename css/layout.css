@@ -1,10 +1,11 @@
 div {
-    outline: 1px rgb(100, 97, 97) solid;
+    border: 1px rgb(100, 97, 97) solid;
+    border-bottom: none;
+    box-sizing: border-box;
     text-align: center;
     color: white;
 }
 #bottomPaddingDiv{
     height: 50px;
-    outline: none;
-    background: none;
+    border: none;
 }

@@ -6,20 +6,6 @@
 @media screen and (min-width:768px) {
     div {
         background: rgb(241, 215, 215);
-        text-align: center;
-    }
-    #pageTitle{
-        outline: none;
-        margin-bottom: 3%;
-        margin-top: 3%;
-        text-align: left;
-        font: 12pt Calibri, sans-serif;
-    }
-    #mainDiv {
-        background: none;
-        outline: none;    
-        width: 90%;
-        margin: auto;
     }
     #divA {
         height: 20px;
@@ -30,44 +16,23 @@
         width: 79.16777777%;
         height: 20px;
         padding: 65px 0px;
-        float: right;
-        clear: right;
-        position: relative;
-        top: -1px;
         background-color: rgb(231, 35, 35);
     }
     .divCD {
         height: 20px;
         padding: 90px 0px;
         width: 39.58333%;
-        float: left;
-        position: relative;
-        top: -1px;
     }
     #divB {
         height: 20px;
         padding: 290px 0px;
         width: 20.83333%;
-        float: left;
-        position: relative;
-        top: -1px;
         background-color: orange;
     }
     .halfWidth {
         width: 19.7917%;
         height: 20px;
         padding: 115px 0px;
-        float: left;
-        position: relative;
-        top: -1px;
-    }
-    .halfWidthRight {
-        width: 19.7917%;
-        height: 20px;
-        padding: 115px 0px;
-        float: left;
-        position: relative;
-        top: -1px;
     }
     #divC{
         background-color: rgb(83, 196, 224);
